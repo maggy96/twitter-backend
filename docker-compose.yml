@@ -1,0 +1,11 @@
+version: "3.4"
+services:
+  mongodb:
+    image: mongo:4.2-bionic
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: twitter
+      MONGO_INITDB_ROOT_PASSWORD: twitter
+      MONGO_INITDB_DATABASE: twitter
+    ports:
+       - "27017:27017"
