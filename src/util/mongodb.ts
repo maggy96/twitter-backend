@@ -1,7 +1,7 @@
-import mongoose from 'mongoose';
-import { logger } from './logger';
-import fs from 'fs';
 import dotenv from 'dotenv';
+import fs from 'fs';
+import mongoose from 'mongoose';
+import logger from './logger';
 
 if (fs.existsSync(".env")) {
   dotenv.config({ path: ".env" });
