@@ -1,6 +1,6 @@
 import faker from 'faker';
 import mongoose from 'mongoose';
-import { tweetModel } from '../src/models/tweet';
+import { tweetModel } from '../src/models/tweetModel';
 import logger from '../src/util/logger';
 import { connectMongoDB } from '../src/util/mongodb';
 

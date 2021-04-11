@@ -18,3 +18,8 @@ In the project directory, you can run:
 - MongoDB
 - TypeScript
 - express
+
+## ToDo
+- [ ] add authentication
+- [ ] add endpoints for login, register
+- [ ] add user model with secure storing of password
